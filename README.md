@@ -2,10 +2,6 @@
 
 RFM segmentation and cohort retention analysis of a UK online retailer, to find **which customers drive revenue, who is about to churn, and how many customers come back**.
 
-![Overview](images/cs_overview.png)
-![RFM segments](images/cs_rfm_segments.png)
-![Retention](images/cs_retention.png)
-
 ## Business problem
 
 An online gift retailer sells to thousands of customers, mostly wholesalers. Marketing treats every customer the same, so money is spent on people who will never return while the best customers get no special attention. The business wants to know:
@@ -24,7 +20,7 @@ An online gift retailer sells to thousands of customers, mostly wholesalers. Mar
 
 ## Approach
 
-### 1. Data cleaning: [`sql/01_data_cleaning.sql`](sql/01_data_cleaning.sql)
+### 1. Data cleaning: 
 
 | Step | Rows |
 |---|---|
@@ -40,7 +36,7 @@ An online gift retailer sells to thousands of customers, mostly wholesalers. Mar
 - Kept cancellations in a separate `transactions` table so their cost could be analysed
 - Added indexes for faster queries
 
-### 2. Business questions: [`sql/02_business_questions.sql`](sql/02_business_questions.sql)
+### 2. Business questions: 
 
 | Section | Question |
 |---|---|

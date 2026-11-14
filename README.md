@@ -89,7 +89,7 @@ MySQL 8 · MySQL Workbench · Power BI
 ```
 ├── sql/
 │   ├── 01_data_cleaning.sql
-│   └── 02_business_questions.sql
+│   └── 02_analysis_questions.sql
 ├── images/
 │   ├── cs_overview.png
 │   ├── cs_rfm_segments.png
